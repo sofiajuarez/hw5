@@ -1,0 +1,25 @@
+
+body {
+padding-top: 50px;
+padding-bottom: 20px;
+}
+
+img{
+	width: 100%;
+}
+.new{
+	padding-top: 20px;
+	display: block;
+	margin: 0 auto;
+	
+}
+.colornew{
+	background-color: #ffdab9;
+}
+
+
+/*Note for Mike: I tried to change the color of the background of the container in mobile devices but it won't work */
+@-ms-viewport { {width: device-width;} .colornew{background-color: red;} } /*  it doesn't show on inspect mobile version since this viewport (ms) is for a certain phone model. Please use the media queries as in lesson4, which are width-based */
+@-o-viewport { {width: device-width;} .colornew{background-color: red;} }
+@viewport { {width: device-width;} .colornew{background-color: red;} }
+/*&nbsp;
